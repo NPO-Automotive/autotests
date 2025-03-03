@@ -1,0 +1,26 @@
+2025-03-03 05:17:07 [error]: Found multiple elements with data-testid="DeficitIzd-TableCell-DatePlan"
+2025-03-03 05:17:10 [error]: Found multiple elements with data-testid="ModalShipmentsToIzed-tbody-tr-buyers"
+2025-03-03 05:17:13 [error]: No elements found with partial data-testid="complect"
+2025-03-03 05:17:16 [error]: No elements found with partial data-testid="ModalKomplect-komplect-table-body-row"
+2025-03-03 05:17:16 [error]: No element found with id="ModalKomplect-komplect-table-body-row"
+2025-03-03 05:17:16 [error]: Table 1 is missing <thead>.
+2025-03-03 05:17:17 [warn]: Duplicate data-testid "ShipmentsListTable-orderRow" found in Table 1
+2025-03-03 05:17:17 [warn]: Duplicate data-testid "ShipmentsListTable-stockOrderRow" found in Table 1
+2025-03-03 05:17:22 [warn]: Duplicate data-testid "ModalShipmentsToIzed-tbody-tr-buyers" found in Table 3
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <th> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
+2025-03-03 05:17:22 [warn]: Cell <td> is missing data-testid in Table 4
