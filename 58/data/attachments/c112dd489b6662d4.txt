@@ -1,0 +1,79 @@
+2025-03-03 03:42:40 [error]: Found multiple elements with data-testid="AssemblySclad-PrintTableBody-ShipmentsCell"
+2025-03-03 03:42:43 [error]: Found multiple elements with data-testid="ModalShipmentsToIzed-tbody-tr-buyers"
+2025-03-03 03:42:46 [error]: No elements found with partial data-testid="complect"
+2025-03-03 03:42:49 [error]: No elements found with partial data-testid="ModalKomplect-komplect-table-body-row"
+2025-03-03 03:42:49 [error]: No element found with id="ModalKomplect-komplect-table-body-row"
+2025-03-03 03:42:49 [error]: Table 1 is missing <thead>.
+2025-03-03 03:42:50 [warn]: Duplicate data-testid "ShipmentsListTable-orderRow" found in Table 1
+2025-03-03 03:42:50 [warn]: Duplicate data-testid "ShipmentsListTable-stockOrderRow" found in Table 1
+2025-03-03 03:42:53 [warn]: Duplicate data-testid "ModalShipmentsToIzed-tbody-tr-buyers" found in Table 3
+2025-03-03 03:42:53 [warn]: Duplicate data-testid "ModalShipmentsToIzed-tbody-tr-sclad" found in Table 4
+2025-03-03 03:42:53 [warn]: Duplicate data-testid "TableKomplect-row" found in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <th> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <th> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <th> is missing data-testid in Table 5
+2025-03-03 03:42:53 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <th> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-03 03:42:54 [warn]: Cell <td> is missing data-testid in Table 5
