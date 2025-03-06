@@ -1,0 +1,27 @@
+2025-03-06 04:30:10 [error]: Found multiple elements with data-testid="DeficitIzd-TableCell-DatePlan"
+2025-03-06 04:30:13 [error]: Found multiple elements with data-testid="ModalShipmentsToIzed-tbody-tr-buyers"
+2025-03-06 04:30:16 [error]: No elements found with partial data-testid="complect"
+2025-03-06 04:30:19 [error]: No elements found with partial data-testid="ModalKomplect-komplect-table-body-row"
+2025-03-06 04:30:19 [error]: No element found with id="ModalKomplect-komplect-table-body-row"
+2025-03-06 04:30:19 [error]: Table 1 is missing <thead>.
+2025-03-06 04:30:19 [warn]: Duplicate data-testid "ShipmentsListTable-orderRow" found in Table 1
+2025-03-06 04:30:19 [warn]: Duplicate data-testid "ShipmentsListTable-stockOrderRow" found in Table 1
+2025-03-06 04:30:24 [warn]: Duplicate data-testid "ModalShipmentsToIzed-tbody-tr-buyers" found in Table 3
+2025-03-06 04:30:24 [warn]: Duplicate data-testid "ModalShipmentsToIzed-tbody-tr-sclad" found in Table 4
+2025-03-06 04:30:24 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:24 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <th> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
+2025-03-06 04:30:25 [warn]: Cell <td> is missing data-testid in Table 5
