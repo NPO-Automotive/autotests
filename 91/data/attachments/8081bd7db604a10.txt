@@ -1,0 +1,11 @@
+2025-03-06 09:39:23 [warn]: Found multiple elements with data-testid="DeficitIzd-TableCell-DatePlan" will click first
+2025-03-06 09:39:26 [error]: No elements found with partial data-testid="ModalShipmentsToIzed-Tbody-List"
+2025-03-06 09:39:26 [error]: No element found with id="ModalShipmentsToIzed-Tbody-List"
+2025-03-06 09:39:26 [error]: No elements found with partial data-testid="TableKomplect-Cell-Complectation"
+2025-03-06 09:39:26 [error]: No element found with id="TableKomplect-Cell-Complectation"
+2025-03-06 09:39:26 [error]: No elements found with partial data-testid="ModalKomplect-TableBody-row-"
+2025-03-06 09:39:26 [error]: No element found with id="ModalKomplect-TableBody-row-"
+2025-03-06 09:39:26 [error]: Table 1 is missing <thead>.
+2025-03-06 09:39:26 [warn]: Duplicate data-testid "ShipmentsListTable-orderRow" found in Table 1
+2025-03-06 09:39:26 [warn]: Duplicate data-testid "ShipmentsListTable-stockOrderRow" found in Table 1
+2025-03-06 09:39:32 [warn]: Duplicate data-testid "ModalShipmentsToIzed-tbody-tr-buyers" found in Table 3
