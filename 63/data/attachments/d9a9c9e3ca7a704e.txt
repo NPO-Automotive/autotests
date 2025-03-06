@@ -1,1 +1,0 @@
-Request failed: http://dev.npoamotiv.ru/api/product/deficits { errorText: 'net::ERR_ABORTED' }

@@ -1,7 +1,0 @@
-2025-03-03 05:26:23 [error]: Browser error: TypeError: Failed to fetch
-    at Et (http://dev.npoamotiv.ru/assets/index-BuOCibOG.js:56:97802)
-    at Proxy.fetchDeficit (http://dev.npoamotiv.ru/assets/index-BuOCibOG.js:98:128500)
-    at Proxy.B (http://dev.npoamotiv.ru/assets/index-BuOCibOG.js:22:2306)
-    at P (http://dev.npoamotiv.ru/assets/index-BuOCibOG.js:212:150038)
-    at I (http://dev.npoamotiv.ru/assets/index-BuOCibOG.js:212:150332)
-    at S (http://dev.npoamotiv.ru/assets/index-BuOCibOG.js:212:150421)
