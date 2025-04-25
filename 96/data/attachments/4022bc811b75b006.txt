@@ -1,3 +1,0 @@
-2025-03-20 04:27:40 [warn]: Found multiple elements with data-testid="DeficitIzd-TableCell-DatePlan" will click first
-2025-03-20 04:27:46 [warn]: Found multiple elements with data-testid="TableKomplect-Cell-Complectation" will click first
-2025-03-20 04:27:49 [warn]: Found multiple elements with data-testid="ModalKomplect-TableBody-row-" will click first
