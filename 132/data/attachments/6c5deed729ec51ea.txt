@@ -1,0 +1,44 @@
+Error filling the login form: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#tabel .combobox__input') to be visible
+
+    at LoginPage.newFillLoginForm (/home/runner/work/autotests/autotests/lib/Page.ts:429:18)
+    at performLogin (/home/runner/work/autotests/autotests/testcases/TC000.spec.ts:10:5)
+    at /home/runner/work/autotests/autotests/testcases/U005.spec.ts:33:13 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    stepId: 'pw:api@33',
+    location: {
+      file: '/home/runner/work/autotests/autotests/lib/Page.ts',
+      line: 429,
+      column: 18,
+      function: 'LoginPage.newFillLoginForm'
+    },
+    category: 'pw:api',
+    title: 'page.waitForSelector(#tabel .combobox__input)',
+    apiName: 'page.waitForSelector',
+    params: {
+      selector: '#tabel .combobox__input',
+      state: 'visible',
+      timeout: 10000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    complete: [Function: complete],
+    endWallTime: 1746680551707,
+    error: {
+      message: 'TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#tabel .combobox__input') to be visible\x1B[22m\n",
+      stack: 'TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#tabel .combobox__input') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at LoginPage.newFillLoginForm (/home/runner/work/autotests/autotests/lib/Page.ts:429:18)\n' +
+        '    at performLogin (/home/runner/work/autotests/autotests/testcases/TC000.spec.ts:10:5)\n' +
+        '    at /home/runner/work/autotests/autotests/testcases/U005.spec.ts:33:13',
+      cause: undefined
+    }
+  }
+}
