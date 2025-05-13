@@ -1,7 +1,0 @@
-Табельный номер field is visible.
-Табельный номер set to: 001
-Логин field is visible.
-Логин set to: Перов Д.А.
-Пароль field is visible.
-Пароль filled successfully.
-Form filled successfully!
