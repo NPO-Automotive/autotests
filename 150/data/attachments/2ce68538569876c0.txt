@@ -1,0 +1,11 @@
+Табельный номер field is visible.
+Табельный номер set to: 001
+Логин field is visible.
+Логин set to: Перов Д.А.
+Waiting for password field...
+Password field is visible.
+Password filled successfully.
+Form filled successfully!
+Navigation to basedetals and validation of element with data-testid: "BaseDetals-Header-Title" completed.
+Page titles validated successfully with styling applied.
+Table with data-testid "BasePaginationTable-Table-product" has 40 rows.
