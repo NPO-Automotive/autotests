@@ -553,6 +553,7 @@ export const runU004_1 = () => {
                 );
                 //expect(isButtonReady).toBeTruthy(); // DATATESTID
                 logger.info(`Is the "${buttonLabel}" button visible and enabled?`, isButtonReady);
+                expect(isButtonReady).toBeTruthy();
             });
 
             // Highlight button for debugging
@@ -599,6 +600,7 @@ export const runU004_1 = () => {
             // Locate all rows in the table body
             const rowsLocator = bottomTableLocator.locator('tbody tr');
             const rowCount = await rowsLocator.count();
+            console.log(rowCount);
             expect(rowCount).toBeGreaterThan(0); // Ensure there are rows in the table
             logger.info(`Found ${rowCount} rows in the bottom table.`);
 
