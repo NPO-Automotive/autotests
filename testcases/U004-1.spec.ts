@@ -532,7 +532,19 @@ export const runU004_1 = () => {
             });
             firstCell!.hover();
             firstCell!.click();
+
             await page.waitForTimeout(500);
+            const rowLocator = table2Locator!.locator('tbody tr:first-child');
+
+            // Check if the row has the "active" class
+            const hasActiveClass = await rowLocator.evaluate((row) => {
+                return row.classList.contains('active');
+            });
+
+            // Assert that the row contains the class
+            expect(hasActiveClass).toBeTruthy();
+
+            console.log(`✅ First row has 'active' class: ${hasActiveClass}`);
 
         });
         await allure.step("Step 31: Нажимаем по кнопке \"Выбрать\" в модальном окне (Click on the \"Выбрать\" button in the modal window)", async () => {
