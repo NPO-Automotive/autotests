@@ -582,6 +582,8 @@ export const runU004_1 = () => {
             // Perform hover and click actions
             await buttonLocator.click();
             await page.waitForTimeout(1500);
+            await buttonLocator.click();
+            await page.waitForTimeout(1500);
         });
 
         await allure.step("Step 32: Убедитесь, что выбранная строка теперь отображается в нижней таблице.", async () => {
