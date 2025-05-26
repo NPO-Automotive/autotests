@@ -567,8 +567,7 @@ export const runU004_1 = () => {
                     buttonLabel,
                     expectedState
                 );
-                //expect(isButtonReady).toBeTruthy(); // DATATESTID
-                logger.info(`Is the "${buttonLabel}" button visible and enabled?`, isButtonReady);
+                console.log(`Is the "${buttonLabel}" button visible and enabled?`, isButtonReady);
                 expect(isButtonReady).toBeTruthy();
             });
 
