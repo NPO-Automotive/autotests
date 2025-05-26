@@ -578,6 +578,8 @@ export const runU004_1 = () => {
                 button.style.border = '2px solid red';
                 button.style.color = 'blue';
             });
+            await page.waitForLoadState("networkidle"); // Ensure everything is loaded
+            await page.screenshot({ path: "screenshot.png", fullPage: true }); // Capture full page
 
             // Perform hover and click actions
             await buttonLocator.click();
