@@ -589,7 +589,7 @@ export const runU004_1 = () => {
             const bottomTableLocator = modal.locator(`[data-testid="${EDIT_PAGE_ADD_СБ_RIGHT_DIALOG_BOTTOM_TABLE}"]`); // Match any table with the suffix "-Table"
             await bottomTableLocator.waitFor({ state: 'attached', timeout: 15000 }); // Wait for table to be attached
             logger.info("Bottom table located successfully.");
-
+            await page.waitForTimeout(1000);
             // Highlight the table for debugging
             await bottomTableLocator.evaluate((element) => {
                 element.style.border = "2px solid red";
