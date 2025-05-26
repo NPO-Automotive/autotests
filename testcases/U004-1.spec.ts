@@ -469,6 +469,8 @@ export const runU004_1 = () => {
             await page.waitForLoadState("networkidle");
             await table2Locator!.locator('input.search-yui-kit__input').fill(TEST_PRODUCT_СБ); //DATATESTID
             await page.waitForLoadState("networkidle");
+            await page.waitForTimeout(1000);
+
             // Optionally, validate that the search input is visible
             await expect(table2Locator!.locator('input.search-yui-kit__input')).toBeVisible() //DATATESTID
         });
@@ -480,6 +482,7 @@ export const runU004_1 = () => {
         await allure.step("Step 27: Осуществляем фильтрацию таблицы при помощи нажатия клавиши Enter (Filter the table using the Enter key)", async () => {
             // Simulate pressing "Enter" in the search field
             await table2Locator!.locator('input.search-yui-kit__input').press('Enter'); //DATATESTID
+            await page.waitForTimeout(1000);
             await page.waitForLoadState("networkidle");
         });
         await allure.step("Step 28: Проверяем, что тело таблицы отображается после фильтрации (Verify the table body is displayed after filtering)", async () => {
