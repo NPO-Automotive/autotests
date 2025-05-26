@@ -584,7 +584,7 @@ export const runU004_1 = () => {
             await modal.waitFor({ state: 'attached', timeout: 15000 }); // Ensure modal is attached to the DOM
             await modal.waitFor({ state: 'visible', timeout: 15000 }); // Ensure modal becomes visible
             logger.info("Modal located successfully.");
-
+            await page.waitForTimeout(1500);
             // Locate the bottom table dynamically within the modal
             const bottomTableLocator = modal.locator(`[data-testid="${EDIT_PAGE_ADD_СБ_RIGHT_DIALOG_BOTTOM_TABLE}"]`); // Match any table with the suffix "-Table"
             await bottomTableLocator.waitFor({ state: 'attached', timeout: 15000 }); // Wait for table to be attached
