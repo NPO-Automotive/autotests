@@ -576,8 +576,8 @@ export const runU004_1 = () => {
             // Retrieve the selected part number and name
             const selectedPartNumber = firstCellValue; // Replace with the actual part number variable
             const selectedPartName = secondCellValue; // Replace with the actual part name variable
-            logger.info(`Selected Part Number: ${selectedPartNumber}`);
-            logger.info(`Selected Part Name: ${selectedPartName}`);
+            console.log(`Selected Part Number: ${selectedPartNumber}`);
+            console.log(`Selected Part Name: ${selectedPartName}`);
 
             // Locate the specific modal containing the table
             const modal = await page.locator(`dialog[data-testid^="${EDIT_PAGE_ADD_СБ_RIGHT_DIALOG}"]`);
@@ -616,6 +616,8 @@ export const runU004_1 = () => {
                 // Extract data from the first and second columns
                 const partNumberCell = row.locator('td').nth(0);
                 const partNameCell = row.locator('td').nth(1);
+                console.log("row" + i + "partNumberCell.textContent():" + partNumberCell.textContent());
+                console.log("row" + i + "partNameCell.textContent():" + partNameCell.textContent());
                 const partNumber = (await partNumberCell.textContent())?.trim();
                 const partName = (await partNameCell.textContent())?.trim();
 
