@@ -232,6 +232,7 @@ jobs:
         if: always()
         run: |
           mkdir -p allure-history
+          chmod -R 777 allure-history  # Give full read/write permissions
           echo '<meta http-equiv="refresh" content="0; URL=./latest/index.html">' > allure-history/index.html
 
       - name: Deploy report to Github Pages
