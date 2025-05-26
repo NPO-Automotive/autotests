@@ -614,10 +614,10 @@ export const runU004_1 = () => {
                 await row.waitFor({ state: 'visible', timeout: 5000 });
 
                 // Extract data from the first and second columns
-                const partNumberCell = row.locator('td').nth(0);
-                const partNameCell = row.locator('td').nth(1);
-                console.log("row" + i + "partNumberCell.textContent():" + partNumberCell.textContent());
-                console.log("row" + i + "partNameCell.textContent():" + partNameCell.textContent());
+                const partNumberCell = await row.locator('td').nth(0);
+                const partNameCell = await row.locator('td').nth(1);
+                console.log("row" + i + "partNumberCell.textContent():" + await partNumberCell.textContent());
+                console.log("row" + i + "partNameCell.textContent():" + await partNameCell.textContent());
                 const partNumber = (await partNumberCell.textContent())?.trim();
                 const partName = (await partNameCell.textContent())?.trim();
 
