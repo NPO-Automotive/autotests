@@ -491,7 +491,7 @@ export const runU004_1 = () => {
             // Assert that the table body has rows
             await page.waitForTimeout(1000);
             const rowCount = await table2Locator!.locator('tbody tr').count();
-
+            console.log("results rowCount:" + rowCount);
             expect(rowCount).toBeGreaterThan(0); // Asserts that the row count is greater than 1
         });
         let firstCell: Locator | null = null;
@@ -501,6 +501,7 @@ export const runU004_1 = () => {
 
             // Get the value of the first cell in the first row
             firstCellValue = await table2Locator!.locator('tbody tr:first-child td:nth-child(1)').innerText();
+            console.log("results firstCellValue:" + firstCellValue);
             firstCell = await table2Locator!.locator('tbody tr:first-child td:nth-child(1)');
             await firstCell.evaluate((row) => {
                 row.style.backgroundColor = 'yellow';
