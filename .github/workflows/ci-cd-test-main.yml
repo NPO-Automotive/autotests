@@ -161,7 +161,7 @@ jobs:
           npm install -g typescript
           
           # Install dependencies before building
-          pnpm install --filter ./packages/zod-shared || { echo \\\"❌ Failed to install dependencies\\\"; exit 1; }
+           pnpm add sequelize @types/sequelize --filter ./packages/zod-shared || { echo \\\"❌ Failed to install dependencies\\\"; exit 1; }
 
           # Verify TypeScript availability
           tsc -v || { echo \\\"❌ TypeScript is still missing!\\\"; exit 1; }
