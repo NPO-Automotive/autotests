@@ -1,3 +1,4 @@
+
 name: CI/CD for Main Branch
 
 on:
@@ -113,7 +114,7 @@ jobs:
           set -x  
           echo \"✅ TARGET_BRANCH is: $TARGET_BRANCH\"
           echo \"✅ SERVER_BRANCH is: $SERVER_BRANCH\"
-          
+          docker mkdir sep-erp-test_app_test_1:/root/.ssh
           docker cp /home/npo/.ssh/id_rsa sep-erp-test_app_test_1:/root/.ssh/id_rsa
           docker cp /home/npo/.ssh/id_rsa.pub sep-erp-test_app_test_1:/root/.ssh/id_rsa.pub
 
