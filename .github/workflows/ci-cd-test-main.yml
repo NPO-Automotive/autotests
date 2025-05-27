@@ -158,13 +158,13 @@ jobs:
             git merge --no-commit --no-ff origin/\\$SERVER_BRANCH || { echo \\\"❌ Failed to merge SERVER_BRANCH into TARGET_BRANCH\\\"; exit 1; }
           fi
           # Install TypeScript globally
-          npm install -g typescript
+          #npm install -g typescript
           
           # Install dependencies before building
-           pnpm add sequelize @types/sequelize --filter ./packages/zod-shared || { echo \\\"❌ Failed to install dependencies\\\"; exit 1; }
+          pnpm add sequelize @types/sequelize --filter ./packages/zod-shared || { echo \\\"❌ Failed to install dependencies\\\"; exit 1; }
 
           # Verify TypeScript availability
-          tsc -v || { echo \\\"❌ TypeScript is still missing!\\\"; exit 1; }
+          #tsc -v || { echo \\\"❌ TypeScript is still missing!\\\"; exit 1; }
           
           pnpm i || { echo \\\"❌ Failed to install dependencies\\\"; exit 1; }
           pnpm run build:lib || { echo \\\"❌ Failed to build site libraries\\\"; exit 1; }
