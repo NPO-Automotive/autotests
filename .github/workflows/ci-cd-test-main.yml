@@ -231,11 +231,10 @@ jobs:
       - name: Create index.html
         if: always()
         run: |
-          ls -al
-          rm -rf allure-history/.git  # Remove Git tracking to make folder writable
-          mkdir -p allure-history
-          chmod -R 777 allure-history  # Give full read/write permissions
+          sudo chown -R $(whoami) allure-history
+          sudo chmod -R 777 allure-history
           echo '<meta http-equiv="refresh" content="0; URL=./latest/index.html">' > allure-history/index.html
+
 
       - name: Deploy report to Github Pages
         if: always()
