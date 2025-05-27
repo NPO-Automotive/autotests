@@ -236,12 +236,16 @@ jobs:
           echo '<meta http-equiv="refresh" content="0; URL=./latest/index.html">' > allure-history/index.html
 
       - name: Setup Git remote before deployment
+        if: always()
+        continue-on-error: true
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git remote add origin https://github.com/NPO-Automotive/autotests.git || true
 
-      - name: Deploy report to Github Pages
+      - name: Deploy report to GitHub Pages
+        if: always()
+        continue-on-error: true
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.AUTOTEST_ACTIONS }}
@@ -252,6 +256,8 @@ jobs:
           user_email: "github-actions@github.com"
 
       - name: Verify Allure History Exists
+        if: always()
+        continue-on-error: true
         run: |
           ls -lah allure-history || { echo "❌ allure-history is missing!"; exit 1; }
 
