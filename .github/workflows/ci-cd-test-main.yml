@@ -235,15 +235,25 @@ jobs:
           sudo chmod -R 777 allure-history
           echo '<meta http-equiv="refresh" content="0; URL=./latest/index.html">' > allure-history/index.html
 
+      - name: Setup Git remote before deployment
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git remote add origin https://github.com/NPO-Automotive/autotests.git || true
 
       - name: Deploy report to Github Pages
-        if: always()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.AUTOTEST_ACTIONS }}
           publish_branch: gh-pages
           publish_dir: allure-history
           force_orphan: true
+          user_name: "github-actions"
+          user_email: "github-actions@github.com"
+
+      - name: Verify Allure History Exists
+        run: |
+          ls -lah allure-history || { echo "❌ allure-history is missing!"; exit 1; }
 
       - name: Cleanup
         if: always()
